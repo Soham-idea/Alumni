@@ -48,7 +48,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: fixed;
+    position: sticky;
 }
 
 .navbar ul li {
@@ -125,6 +125,372 @@ body{
 .h9{
     margin-left: 15px !important;
 }*/
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+
+.spart h3
+{
+    text-align: center;
+    margin-top: 7vh;
+    margin-bottom: 3vh;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.spart .simg
+{
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+}
+
+.spart .simg img
+{
+    height: 25vh;
+    width: 20vw;
+    margin-left: 20px;
+    border-radius: 10px;
+
+}
+
+.spart .simg p
+{
+    margin-top: 20px;
+    margin-left: 25px;
+    padding-bottom: 50px;
+}
+
+#fs
+{
+    /* border: 1px solid black; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(174, 171, 171, 0.479);
+    border-radius: 10px;
+    text-align: center;
+}
+
+#ss
+{
+    /* border: 1px solid black; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(174, 171, 171, 0.479);
+    border-radius: 10px;
+}
+
+#st
+{
+    /* border: 1px solid black; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(174, 171, 171, 0.479);
+    border-radius: 10px;
+}
+
+#ft
+{
+     /* border: 1px solid black; */
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     background-color: rgba(174, 171, 171, 0.479);
+     border-radius: 10px;
+} */
+
+
+
+/* Common styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.spart{
+    margin-top: 400px;
+    
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+
+}
+.spart h3 {
+    text-align: center;
+    margin-top: 7vh;
+    margin-bottom: 3vh;
+}
+
+.spart .simg {
+    display: flex;
+    justify-content: space-around;
+}
+
+.spart .simg img {
+    height: 25vh;
+    width: 20vw;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.spart .simg p {
+    margin-top: 20px;
+    margin-left: 25px;
+    padding-bottom: 50px;
+}
+
+/* Section styles */
+#fs, #ss, #st, #ft {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(174, 171, 171, 0.479);
+    border-radius: 10px;
+    text-align: center;
+    border-radius: 20px;
+
+}
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+    .spart .simg {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .spart .simg img {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .spart .simg p {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .spart .simg img {
+        width: 80%;
+    }
+}
+.Tpart{
+    /* background-color: #009688; */
+    margin-top: 50px;
+    display: flex;
+    border-radius: 20px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.T1{
+    margin-left: 45px;
+    width: 30vw;
+
+}
+.T1 img{
+    width: 120%;
+    height: 550px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+.T2{
+    /* background-color: grey; */
+    width: 50vw;
+    margin-left: 150px;
+    height: 600px;
+    
+}
+.T2 h2{
+    text-align: center;
+    margin-top: 120px;
+}
+.T2 p{
+    text-align: justify;
+    margin-top: 40px;
+}
+.Fpart{
+    margin-top: 50px;
+    text-align: center;
+}
+/* .Fpart h2{
+    margin-top: 15px;
+} */
+.FivePart{
+    display: flex;
+    justify-content: space-evenly;
+}
+.FivePart img{
+    margin-top: 20px;
+    border-radius: 15px;
+    width: 25vw;
+}
+.ff{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   border-radius: 20px;
+   
+}
+input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 100%; /* Set width to 100% */
+    padding: 10px; /* Add padding for better appearance */
+    margin-bottom: 10px; /* Add margin for spacing between elements */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  }
+
+  /* Set the background color to grey */
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+    background-color: #f2f2f2;
+  }
+  .contact{
+    width: 30vw;
+    /* float:right; */
+    margin-right: 35px;
+    margin-top: 100px;
+  }
+  .contact #button1{
+    background-color: rgb(120, 120, 240);
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+
+  }
+  .contact-section {
+    margin-bottom: 20px;
+  }
+  .contact-heading {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .contact-details {
+    font-size: 16px;
+  }
+  .SixPart{
+    display: flex;
+
+    justify-content: space-evenly;
+  }
+  .contact1{
+    margin-top: 100px;
+  }
+.contactus1{
+    text-align: center;
+    margin-top: 80px;
+    padding-top: 20px;
+}
+.SixPart p{
+    color: rgb(116, 112, 112);
+}
+.all{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.login{
+    display: flex;
+    /* float: right; */
+    justify-content: space-evenly;
+     margin-left: 700px;
+    margin-top: 5px;
+    /* background-color: #454343; */
+    width: 20vw;
+    /* text-decoration: none; */
+
+}
+.login a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from parent */
+  }
+  .login a:hover {
+    color: rgb(78, 78, 200);
+   
+  }
+  /* Media Queries */
+@media only screen and (max-width: 768px) {
+    /* For smaller devices, adjust navbar width */
+    .navbar {
+        width: 100%;
+    }
+
+    /* Center align navbar items */
+    .navbar ul {
+        text-align: center;
+    }
+
+    /* Remove margin for navbar items */
+    .navbar ul li {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    /* Reduce margin for margin classes */
+    .m1, .m2, .m3, .m4, .m5 {
+        margin-left: 10px !important;
+        margin-top: 5px;
+    }
+}
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+    .Tpart {
+        flex-direction: column; /* Change flex direction to stack items vertically */
+        align-items: center; /* Center align items */
+        margin-top: 30px; /* Reduce margin top */
+    }
+
+    .T1 {
+        margin-left: 0; /* Reset margin left */
+        width: 90%; /* Adjust width */
+    }
+
+    .T1 img {
+        width: 100%; /* Make image responsive */
+        height: auto; /* Make image height auto to maintain aspect ratio */
+        margin: 20px 0; /* Adjust margin */
+    }
+
+    .T2 {
+        width: 90%; /* Adjust width */
+        margin-left: 0; /* Reset margin left */
+        margin-top: 20px; /* Adjust margin top */
+    }
+
+    .T2 h2 {
+        margin-top: 40px; /* Adjust margin top */
+    }
+}
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+    .SixPart {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: center; /* Center align items */
+    }
+
+    .contact1 {
+        margin-top: 50px; /* Adjust margin top */
+    }
+
+    .contact {
+        width: 80%; /* Adjust width */
+        margin: 20px auto; /* Center align horizontally */
+        margin-top: 50px; /* Adjust margin top */
+    }
+
+    .contact #button1 {
+        width: 100%; /* Make button full width */
+    }
+}
 
 
